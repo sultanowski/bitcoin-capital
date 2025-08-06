@@ -185,11 +185,11 @@ This template contains a set of predefined scripts in the `package.json` file:
 - `pnpm lint`: Scans the codebase with ESLint and Prettier to see if there are any errors.
 - `pnpm lint:fix`: Fixes all auto-fixable issues in ESLint.
 - `pnpm check`: Checks for TypeScript errors in the codebase.
-- `pnpm format`: Formats all the files in the codebase using Prettier. You probably won't need this script if you have automatic [formatting on save](https://www.digitalocean.com/community/tutorials/code-formatting-with-prettier-in-visual-studio-code#automatically-format-on-save) active in your editor.
+- `pnpm format`: Formats all the files in the codebase using Prettier. You probably won't need this script if you have automatic [formatting on save](https://www.digitalocean.com/community/tutorials/code-formatting-with-prettier-in-visual-studio-code#automatically-format-on-save) default in your editor.
 - `pnpm test`: Will run all the tests that are located in the `/tests` folder.
 - `pnpm test:headed`: Will run all the tests that are located in the `/tests` folder visually in headed browsers.
 - `pnpm release`: This command is defined for [Changesets](https://github.com/changesets/changesets). You don't have to interact with it.
-- `pnpm run update`: Scans the dependencies of the project and provides an interactive UI to select the ones that you want to update.
+- `pnpm run update`: Scans the dependencies of the project and provides an inter default UI to select the ones that you want to update.
 
 ## CI/CD
 

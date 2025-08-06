@@ -1,0 +1,8 @@
+.button.is-filter:has(radio:checked) {
+  background-color: #d3e0fb;
+  color: #2563eb;
+}
+
+.button.is-filter:has(radio:checked):hover {
+  background-color: #bccae9;
+}
