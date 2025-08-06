@@ -2,13 +2,7 @@ const linkSwiper = document.createElement('link');
 linkSwiper.rel = 'stylesheet';
 linkSwiper.href = 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css';
 
-const linkCustomCSS = document.createElement('link');
-linkCustomCSS.rel = 'stylesheet';
-linkCustomCSS.type = 'text/css';
-linkCustomCSS.href = 'http://localhost:3000/index.css';
-
 document.head.appendChild(linkSwiper);
-document.head.appendChild(linkCustomCSS);
 
 const swiper = new Swiper('.swiper', {
   speed: 400,
